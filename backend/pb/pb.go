@@ -255,7 +255,7 @@ func importSettings() error {
 		return err
 	}
 
-	logger.Info.Println("Ping interval set to", interval)
+	logger.Info.Println("Ping间隔设置为/Ping interval set to", interval)
 	return nil
 }
 
